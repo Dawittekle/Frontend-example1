@@ -1,0 +1,108 @@
+header{
+    background-color:black;
+    color: bisque;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 10;
+ }
+ 
+.link:hover {
+    background-color: aliceblue;
+    color: black;
+  }
+  nav{
+    display: flex;
+    flex-direction:row;
+    height: 20px;
+}
+.link{
+    height: 20px;
+    width: 30px;
+    border: 1px solid white;
+    margin-right: 20px;
+}
+.link:hover {
+    background-color: aliceblue;
+    color: black;
+  }
+img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.wrapper{
+float: right;
+}
+a{
+    color: bisque;
+    height: 30px;
+    width: 100px;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 0px;
+    font-size: large;
+font-family: 'Times New Roman', Times, serif;
+}
+
+footer{
+   
+    background-color:#2a314d;
+    height: 100px;
+    color: white;
+}
+main{
+    background-image: url(images/debo3.png);
+     background-size: cover;
+     color: antiquewhite;
+     margin-top: 100px;
+     margin-bottom: 0px;
+     align-items: center;
+     text-align: center;
+     justify-content: center;
+}
+a{
+    color: bisque;
+}
+input{
+    width: 500px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.form{
+    background-color:white;
+    color:black;
+    width: 700px;
+    margin-left: 300px;
+    margin-bottom: 20px;
+    margin-bottom: 0px;
+    border-radius: 30px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+label{
+   margin-left: 5px;
+}
+b{
+    color:red;
+}
+button{
+    align-items: center;
+    box-sizing: border-box;
+    padding: 10px 30px;
+    font-size: medium;
+    border-radius: 10px;
+    background-color: rgb(5, 153, 37);
+    color: white;
+    margin-top: 10px ;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+button:hover{
+    background-color: rgb(32, 119, 32);
+}
+textarea{
+    width: 500px;
+}

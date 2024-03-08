@@ -1,0 +1,61 @@
+header{
+    background-color:black;
+    color: bisque;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 10;
+ }
+ 
+.link:hover {
+    background-color: aliceblue;
+    color: black;
+  }
+  nav{
+    display: flex;
+    flex-direction:row;
+    height: 20px;
+}
+.link{
+    height: 20px;
+    width: 30px;
+    border: 1px solid white;
+    margin-right: 20px;
+}
+.link:hover {
+    background-color: aliceblue;
+    color: black;
+  }
+img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.wrapper{
+    float: right;
+    }
+    footer{
+   
+        background-color:#2a314d;
+        height: 100px;
+        color: white;
+    }
+a{
+    color: bisque;
+}
+main{
+    background-image: url(images/sjsb.jpg);
+    background-size: cover;
+    height: 800px;
+    margin-top: 100px;
+}
+.members{
+width: 700px;
+margin: 30px;
+}
+.info{
+    width: 800px;
+    margin-left: 30px;
+}
+
